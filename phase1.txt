@@ -1,0 +1,22 @@
+Github repository for project files: 
+https://github.com/jzhr/info2950final
+
+Dataset Idea Brainstorming:
+1. Coronavirus dataset
+ - aggregate from multiple sources to get a full picture
+ - webscrape https://bnonews.com/index.php/2020/04/the-latest-coronavirus-cases/ for country case breakdowns
+ - webscrape https://bnonews.com/index.php/2020/01/tracking-coronavirus-u-s-data/ for state case breakdowns
+ - https://github.com/CSSEGISandData/COVID-19 (data repository by JHU that is automatically updated)
+ 	- can access this data repo through a free API @ https://covid19api.com/ 
+
+2. Twitter tweets dataset
+ - webscrape using https://github.com/fajarmf10/GetOldTweets-python to generate tweet data in the following format:
+ 	- "username","date","retweets","favorites","text","geo","mentions","hashtags","id","permalink","emoji"
+ - could use data to track emoji usage trends over time
+
+
+3. Spotify dataset
+ - webscrape data using Spotify's API @ https://developer.spotify.com/documentation/web-api/
+ - API provides information for all tracks/albums/artists on the platform in JSON format
+
+ 
